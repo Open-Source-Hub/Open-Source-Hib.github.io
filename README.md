@@ -1,4 +1,4 @@
    
 <p align="center">
-  <img src="https://raw.githubusercontent.com/O-Schell/OSH/main/Ressources/OSH.jpg" alt="O S H Banner"></a>
+  <img src="https://github.com/O-Schell/OSH/blob/main/Ressources/OSH.jpg?raw=true" alt="O S H Banner"></a>
 </p>
