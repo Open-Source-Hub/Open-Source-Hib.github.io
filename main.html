@@ -7,23 +7,95 @@
   <link rel="icon" href="favicon48.ico?v=2" sizes="256x256" type="image/x-icon" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
 <body style="margin-top: 0;">
-  <p align="center" style="margin-top: 0;">
-    <img id="banner" src="https://github.com/O-Schell/OSH/blob/main/Ressources/OSH.jpg?raw=true" alt="O S H Banner"/>
+  <div id="container" style="position: absolute;z-index: -2; overflow: hidden">
+    
+        <div id="circle-small"></div>
+        <div id="circle-medium"></div>
+        <div id="circle-large"></div>
+        <div id="circle-xlarge"></div>
+        <div id="circle-xxlarge"></div>
+    
+  </div>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://github.com/O-Schell/OSH">
+        <img src="favicon48.ico" height="28">
+      </a>
 
-  </p>
-  <p>
-  <h1 style="text-align:center;">🚧<b><span class="salt">O</span>SH</b> Website is under construction🚧</h1>
-  </p>
-  <p style="text-align:center;">
-    <br><br><br>
-    Heyo ! 👋<br>
-    To learn more about <span class="salt">O</span>SH, please go to ➡️ <a href="https://github.com/O-Schell/OSH">
-      <span class="salt">O</span>SH Project's page</a>
-  </p>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="">
+          Home
+        </a>
+
+        <a class="navbar-item" href="pages/p1.html">
+          Documentation
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+      -->
+    </div>
+  </nav>
+  <!--<p align="center" style="margin-top: 0;">
+    <img id="banner" src="https://github.com/O-Schell/OSH/blob/main/Ressources/OSH.jpg?raw=true" alt="O S H Banner" />
+
+  </p>-->
+  <div style="margin-top: 30vh; margin-bottom: 30vh;">
+    <p>
+    <h1 style="text-align:center;">Heyo ! 👋<br>🚧 <span class="salt">O</span>SH Website is under construction 🚧</h1>
+    </p>
+    <p style="text-align:center;">
+      <br><br><br>
+      To learn more about <span class="salt">O</span>SH, please go to ➡️ <a href="https://github.com/O-Schell/OSH">
+        <span class="salt">O</span>SH Project's page</a>
+    </p>
+  </div>
 
 
 </body>
